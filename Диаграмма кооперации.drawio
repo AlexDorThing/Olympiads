@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="STEW1UuuOH70sWVlA16-">
+    <mxGraphModel dx="1366" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-6" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-7" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="(1,2).1: регистрация(тип пользователя,&lt;div&gt;&amp;nbsp;логин, пароль)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1544" y="1" as="geometry">
+            <mxPoint x="69" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-9" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-10" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1.2: авторизация(логин, пароль)" vertex="1">
+          <mxGeometry relative="1" x="-0.0911" y="-1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Ученик" vertex="1">
+          <mxGeometry height="60" width="30" x="440" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-2" parent="1" style="html=1;whiteSpace=wrap;" value="Запись аккаунта" vertex="1">
+          <mxGeometry height="40" width="80" x="540" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-12" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-13" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1.3: просмотр списка олимпиад&lt;br&gt;в которых участвовал" vertex="1">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-30" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-34" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1.5: просмотр рейтингов школ" vertex="1">
+          <mxGeometry relative="1" x="-0.2332" as="geometry">
+            <mxPoint x="6" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-8" parent="1" style="html=1;whiteSpace=wrap;" value="Предоставление доступа к аккаунту" vertex="1">
+          <mxGeometry height="50" width="100" x="100" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-15" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-16" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1.4: выбор одной&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;олимпиады&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;из списка(индекс)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2444" y="2" as="geometry">
+            <mxPoint x="-2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-11" parent="1" style="html=1;whiteSpace=wrap;" value="Список олимпиад" vertex="1">
+          <mxGeometry height="40" width="100" x="100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-14" parent="1" style="html=1;whiteSpace=wrap;" value="Общие сведения об олимпиаде и рещультат пользователя" vertex="1">
+          <mxGeometry height="60" width="100" x="100" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Организатор" vertex="1">
+          <mxGeometry height="60" width="30" x="690" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-23" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="wboYCb6MCRW06cPw4-Ff-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-24" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.2: авторизация(логин, пароль)" vertex="1">
+          <mxGeometry relative="1" x="-0.0911" y="-1" as="geometry">
+            <mxPoint x="19" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-38" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-41" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.3 просмотр рейтингов школ" vertex="1">
+          <mxGeometry relative="1" x="-0.3247" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-45" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-46" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.6: создание записи&lt;div&gt;олимпиады(название, дата, предмет, класс)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0097" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-26" parent="1" style="html=1;whiteSpace=wrap;" value="Предоставление доступа к аккаунту" vertex="1">
+          <mxGeometry height="50" width="100" x="970" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-27" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="wboYCb6MCRW06cPw4-Ff-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662" y="260" as="sourcePoint" />
+            <mxPoint x="740" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-32" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-33" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;&lt;div&gt;1.6 ввод поисковых&amp;nbsp;&lt;/div&gt;&lt;div&gt;данных(название, адрес)&lt;/div&gt;&lt;/div&gt;1.7: выбор школы из&amp;nbsp;&lt;div&gt;предложенных&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1778" y="2" as="geometry">
+            <mxPoint x="-2" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-29" parent="1" style="html=1;whiteSpace=wrap;" value="окно поиска школы" vertex="1">
+          <mxGeometry height="30" width="100" x="314" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-31" parent="1" style="html=1;whiteSpace=wrap;" value="информация о школе и её рейтинги" vertex="1">
+          <mxGeometry height="45" width="100" x="314" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-40" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-42" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;2.4 ввод поисковых данных(название, адрес)&lt;/div&gt;2.5 выбор школы из предложенных" vertex="1">
+          <mxGeometry relative="1" x="-0.25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-36" parent="1" style="html=1;whiteSpace=wrap;" value="окно поиска поиск школы" vertex="1">
+          <mxGeometry height="30" width="100" x="1124.0258336669103" y="127.24915945913915" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-37" parent="1" style="html=1;whiteSpace=wrap;" value="информация о школе и её рейтинги" vertex="1">
+          <mxGeometry height="45" width="100" x="1124.0258336669103" y="247.24915945913915" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-48" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-49" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.7: добавление участника" vertex="1">
+          <mxGeometry relative="1" x="-0.0398" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-51" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-52" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.10: удаление участника" vertex="1">
+          <mxGeometry relative="1" x="-0.0647" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-69" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-70" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.12: Отправление записи&amp;nbsp;&lt;div&gt;олимпиады в базу&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0261" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-44" parent="1" style="html=1;whiteSpace=wrap;" value="Окно добавления участников" vertex="1">
+          <mxGeometry height="50" width="100" x="860" y="197.25" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-54" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-55" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.8: выбор ученика из предложенных&lt;div&gt;2.9: указание результатов ученика&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-47" parent="1" style="html=1;whiteSpace=wrap;" value="Окно поиска учеников" vertex="1">
+          <mxGeometry height="50" width="100" x="680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-58" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-59" connectable="0" parent="wboYCb6MCRW06cPw4-Ff-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2.11: выбор ученика из предложенных" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-50" parent="1" style="html=1;whiteSpace=wrap;" value="Список уже добавленных участников" vertex="1">
+          <mxGeometry height="50" width="100" x="1000" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-67" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-53" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-53" parent="1" style="html=1;whiteSpace=wrap;" value="Добавление ученика и его результатов в&amp;nbsp; запись олимпиады" vertex="1">
+          <mxGeometry height="90" width="110" x="670" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-66" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-56" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="wboYCb6MCRW06cPw4-Ff-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="440" />
+              <mxPoint x="1150" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-56" parent="1" style="html=1;whiteSpace=wrap;" value="Удаление ученика из олимпиады" vertex="1">
+          <mxGeometry height="50" width="100" x="1010" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-72" edge="1" parent="1" source="wboYCb6MCRW06cPw4-Ff-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="wboYCb6MCRW06cPw4-Ff-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-65" parent="1" style="html=1;whiteSpace=wrap;" value="Добавление записи олимпиады в базу данных" vertex="1">
+          <mxGeometry height="90" width="110" x="827" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wboYCb6MCRW06cPw4-Ff-71" parent="1" style="html=1;whiteSpace=wrap;" value="Обновление рейтингов школ" vertex="1">
+          <mxGeometry height="90" width="110" x="827" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
