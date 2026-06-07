@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="SchoolOlymps.Views.OrganizerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer>
+        <StackPanel Margin="10">
+            <TextBlock Text="Название олимпиады"/>
+            <TextBox x:Name="OlympiadName"/>
+            <TextBlock Text="Дата"/>
+            <DatePicker x:Name="OlympiadDate"/>
+            <TextBlock Text="Предмет"/>
+            <ComboBox x:Name="SubjectCombo" DisplayMemberPath="Name"/>
+            <TextBlock Text="Максимальный балл"/>
+            <TextBox x:Name="MaxPointsBox"/>
+            <TextBlock Text="Участники"/>
+            <DataGrid x:Name="ParticipantsGrid" AutoGenerateColumns="False" CanUserAddRows="False" 
+          CellEditEnding="ParticipantsGrid_CellEditEnding">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Ученик" Binding="{Binding StudentFullName}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Школа" Binding="{Binding SchoolName}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Баллы" Binding="{Binding Points, UpdateSourceTrigger=LostFocus, Mode=TwoWay}"/>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Удалить" Click="RemoveParticipant_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="StudentSearchBox" Width="200"/>
+                <Button Content="Искать ученика" Click="SearchStudent_Click"/>
+            </StackPanel>
+            <ListBox x:Name="SearchResultsList" DisplayMemberPath="FullName" SelectionChanged="AddParticipant_Click"/>
+            <Button x:Name="SaveOlympiadBtn" Content="Сохранить олимпиаду" Click="SaveOlympiad_Click" Margin="0,10"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

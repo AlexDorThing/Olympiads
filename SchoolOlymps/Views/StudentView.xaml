@@ -1,0 +1,7 @@
+﻿<UserControl x:Class="SchoolOlymps.Views.StudentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="10">
+        <DataGrid x:Name="ResultsGrid" AutoGenerateColumns="True" CanUserAddRows="False"/>
+    </Grid>
+</UserControl>
