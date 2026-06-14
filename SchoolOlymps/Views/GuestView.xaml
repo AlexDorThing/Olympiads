@@ -19,6 +19,12 @@
             </DataGrid.Columns>
         </DataGrid>
         <TextBlock Grid.Row="2" Text="Рейтинги выбранной школы:" Margin="5"/>
-        <DataGrid x:Name="RatingsGrid" Grid.Row="3" AutoGenerateColumns="True"/>
+        <DataGrid x:Name="RatingsGrid" Grid.Row="3" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Школа" Binding="{Binding School.Name}" Width="150"/>
+                <DataGridTextColumn Header="Предмет" Binding="{Binding Subject.Name}" Width="150"/>
+                <DataGridTextColumn Header="Рейтинг" Binding="{Binding Rating, StringFormat=N2}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>

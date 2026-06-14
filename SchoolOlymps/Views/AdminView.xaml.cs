@@ -103,7 +103,7 @@ namespace SchoolOlymps.Views
                 saveBtn.Click += (s, ev) =>
                 {
                     olympiad.Name = nameBox.Text;
-                    olympiad.Date = datePicker.SelectedDate ?? olympiad.Date;
+                    olympiad.Date = DateTime.SpecifyKind(datePicker.SelectedDate ?? olympiad.Date, DateTimeKind.Utc);
                     olympiad.MaxPoints = double.Parse(maxPointsBox.Text);
                     _adminService.UpdateOlympiad(olympiad);
                     LoadOlympiads();

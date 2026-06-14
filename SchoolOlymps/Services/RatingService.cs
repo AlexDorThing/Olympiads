@@ -24,7 +24,7 @@ namespace SchoolOlymps.Services
             var olympiad = _context.Olympiads
                 .Include(o => o.Participants)
                     .ThenInclude(p => p.Student)
-                .First(o => o.Id == olympiadId);
+                .FirstOrDefault(o => o.Id == olympiadId);
             var subjectId = olympiad.SubjectId;
             var maxPoints = olympiad.MaxPoints;
 
@@ -114,7 +114,9 @@ namespace SchoolOlymps.Services
             var olympiad = _context.Olympiads
                 .Include(o => o.Participants)
                     .ThenInclude(p => p.Student)
-                .First(o => o.Id == olympiadId);
+                .FirstOrDefault(o => o.Id == olympiadId);
+
+            if (olympiad == null) return; // Если олимпиада уже удалена – выходим
 
             var affectedPairs = olympiad.Participants
                 .Where(p => p.Student.SchoolId.HasValue)
